@@ -4,69 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <strong><h1>MAKING PASTA</h1></strong>
-    <img src="./pasta.jpeg" alt="pasta" width="500">
-    <p>Pasta means a type of Italian food made from a dough of flour and water (sometimes eggs), shaped into various forms, and cooked by boiling.</p>
-    <h3>Homemade Fresh Pasta (Basic Dough)</h3>
-    <!--INGREDIENT-->
-    <h4>Ingredients (2–3 servings)</h4>
-    <ul>
-        <li>2 cups (240g) all-purpose flour</li>
-        <li>3 large eggs</li>
-        <li>1–2 tbsp olive oil (optional, for softer dough)</li>
-        <li>½ tsp salt</li>
-        <li>Extra flour for dusting</li>
-    </ul>
-    <!--STEP-->
-    <h3>Steps</h3>
-    <ol>
-        <h3><li>Make a flour well</li></h3>
-    <ul>
-        <li>Pour the flour onto a clean working surface.</li>
-        <li>Make a deep well in the center.</li>
-        <li>Add the eggs, salt, and olive oil into the center.</li>
-    </ul>
-        <h3><li>Mix the dough</li></h3>
-        <ul>
-            <li>Use a fork to gently beat the eggs while gradually pulling in flour from the edges.</li>
-            <li>When the mixture becomes thick, start using your hands to bring it together.</li>
-        </ul>
-        <h3><li>Knead</li></h3>
-        <ul>
-            <li>Knead the dough for 8–10 minutes until smooth and elastic.</li>
-            <li>If sticky → sprinkle a little flour.</li>
-            <li>If dry → add a few drops of water.</li>
-        </ul>
-        <h3><li>Rest the dough</li></h3>
-        <ul>
-            <li>Wrap the dough in plastic wrap.</li>
-            <li>Let it rest at room temperature for 20–30 minutes.</li>
-        </ul>
-        <h3><li>Roll out the dough</li></h3>
-        <ul>
-            <li>Cut the dough into 2–4 pieces.</li>
-            <li>Using a pasta machine or rolling pin, roll each piece until thin (setting 5–6 on a machine).</li>
-        </ul>
-    </ol>
-   <!--<ul>
-        <li><a href="https://www.loveandlemons.com/homemade-pasta-recipe/" target="_blank">A link to the recipe source</a></li>
-        <li><a href="https://www.loveandlemons.com/homemade-pasta-recipe/" target="_blank">Nutrition Facts</a></li>
-    </ul>
-    <br>
-    <br> --> 
-    <!--SUBSCRIPTION-->
-    <section>
-        <form>
-            <label>Name</label>
-            <input type="text" placeholder="Enter your name"/>
-            <br>
-            <label>Email</label>
-            <input type="email" placeholder="Enter your email">
-            <br>
-            <input type="submit" value="Subscribe">
-        </form>
-    </section>
+    <div class="container">
+        <h1>MAKING PASTA</h1>
+        <img src="./pasta.jpeg" alt="pasta" class="recipe-image">
+        <div class="content">
+            <p class="intro-text">Pasta means a type of Italian food made from a dough of flour and water (sometimes eggs), shaped into various forms, and cooked by boiling.</p>
+            <h3>Homemade Fresh Pasta (Basic Dough)</h3>
+            <!--INGREDIENT-->
+            <h4>Ingredients (2–3 servings)</h4>
+            <ul>
+                <li>2 cups (240g) all-purpose flour</li>
+                <li>3 large eggs</li>
+                <li>1–2 tbsp olive oil (optional, for softer dough)</li>
+                <li>½ tsp salt</li>
+                <li>Extra flour for dusting</li>
+            </ul>
+            <!--STEP IN MAKING PASTA-->
+            <h3>STEP IN MAKING PASTA</h3>
+            <ol>
+                <li><span class="step-title">Make a flour well</span>
+                    <ul>
+                        <li>Pour the flour onto a clean working surface.</li>
+                        <li>Make a deep well in the center.</li>
+                        <li>Add the eggs, salt, and olive oil into the center.</li>
+                    </ul>
+                </li>
+                <li><span class="step-title">Mix the dough</span>
+                    <ul>
+                        <li>Use a fork to gently beat the eggs while gradually pulling in flour from the edges.</li>
+                        <li>When the mixture becomes thick, start using your hands to bring it together.</li>
+                    </ul>
+                </li>
+                <li><span class="step-title">Knead</span>
+                    <ul>
+                        <li>Knead the dough for 8–10 minutes until smooth and elastic.</li>
+                        <li>If sticky → sprinkle a little flour.</li>
+                        <li>If dry → add a few drops of water.</li>
+                    </ul>
+                </li>
+                <li><span class="step-title">Rest the dough</span>
+                    <ul>
+                        <li>Wrap the dough in plastic wrap.</li>
+                        <li>Let it rest at room temperature for 20–30 minutes.</li>
+                    </ul>
+                </li>
+                <li><span class="step-title">Roll out the dough</span>
+                    <ul>
+                        <li>Cut the dough into 2–4 pieces.</li>
+                        <li>Using a pasta machine or rolling pin, roll each piece until thin (setting 5–6 on a machine).</li>
+                    </ul>
+                </li>
+            </ol>
+            <ul>
+                <li><a href="https://www.loveandlemons.com/homemade-pasta-recipe/" target="_blank">A link to the recipe source</a></li>
+                <li><a href="https://www.loveandlemons.com/homemade-pasta-recipe/" target="_blank">Nutrition Facts</a></li>
+            </ul>
+            
+            <!--SUBSCRIPTION-->
+            <div class="subscription-section">
+                <h3>Subscribe for More Recipes!</h3>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name"/>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

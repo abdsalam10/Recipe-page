@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+/* Header Styles */
+h1 {
+    background-color: #4a7b9d;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 15px;
+}
+
+/* Image Styles */
+.recipe-image {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+}
+
+/* Content Styles */
+.content {
+    padding: 20px;
+}
+
+.intro-text {
+    font-size: 1.1em;
+    text-align: center;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Section Headings */
+h3 {
+    color: #4a7b9d;
+    border-bottom: 1px solid #4a7b9d;
+    padding-bottom: 5px;
+    margin: 25px 0 15px 0;
+    font-size: 1.4em;
+}
+
+h4 {
+    color: #5a8bad;
+    margin: 20px 0 10px 0;
+    font-size: 1.2em;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* List Styles */
+ul, ol {
+    max-width: 700px;
+    margin: 15px auto;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 1em;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+.step-title {
+    font-weight: bold;
+    color: #4a7b9d;
+}
+
+/* Link Styles */
+a {
+    color: #4a7b9d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Subscription Section */
+.subscription-section {
+    background-color: #f9f9f9;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.subscription-section h3 {
+    color: #4a7b9d;
+    margin-top: 0;
+    text-align: center;
+}
+
+form {
+    display: block;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #4a7b9d;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4a7b9d;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #3a6b8d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        border-radius: 6px;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+        padding: 15px;
+    }
+    
+    .content {
+        padding: 15px;
+    }
+}
